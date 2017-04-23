@@ -1,0 +1,22 @@
+{
+    "name": "mintopia/obsbridge",
+    "description": "OBS Broadcaster Websocket to RabbitMQ Bridge",
+    "type": "project",
+    "require": {
+        "ratchet/pawl": "^0.2.3",
+        "bunny/bunny": "^0.2.4",
+        "react/promise": "^2.5",
+        "ramsey/uuid": "^3.6",
+        "monolog/monolog": "^1.22"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Jessica Smith",
+            "email": "jess@mintopia.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Mintopia\\OBSBridge\\": "src/" }
+    }
+}
